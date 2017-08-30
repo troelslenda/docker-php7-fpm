@@ -1,4 +1,4 @@
-FROM php:7-fpm-alpine
+FROM php:7-fpm
 
 RUN apt-get update -y && \
   DEBIAN_FRONTEND=noninteractive \
